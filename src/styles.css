@@ -572,6 +572,26 @@ video {
   top: 0.5rem;
 }
 
+.top-4{
+  top: 1rem;
+}
+
+.top-8{
+  top: 2rem;
+}
+
+.bottom-8{
+  bottom: 2rem;
+}
+
+.top-1{
+  top: 0.25rem;
+}
+
+.top-6{
+  top: 1.5rem;
+}
+
 .mx-0{
   margin-left: 0px;
   margin-right: 0px;
@@ -646,6 +666,11 @@ video {
 
 .hidden{
   display: none;
+}
+
+.size-4{
+  width: 1rem;
+  height: 1rem;
 }
 
 .h-6{
@@ -829,6 +854,51 @@ video {
   padding-bottom: 192px;
 }
 
+.px-\[px\]{
+  padding-left: px;
+  padding-right: px;
+}
+
+.px-\[80px\]{
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.py-\[\]{
+  padding-top: ;
+  padding-bottom: ;
+}
+
+.py-\[30px\]{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.py-\[20px\]{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.py-\[100px\]{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.py-\[10px\]{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.py-\[100\]{
+  padding-top: 100;
+  padding-bottom: 100;
+}
+
+.py-\[100p\]{
+  padding-top: 100p;
+  padding-bottom: 100p;
+}
+
 .text-center{
   text-align: center;
 }
@@ -904,6 +974,11 @@ video {
   color: rgb(229 231 235 / var(--tw-text-opacity, 1));
 }
 
+.text-black{
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity, 1));
+}
+
 .btns{
   border-radius: 32px;
   padding: 12px 24px;
@@ -935,6 +1010,14 @@ th{
 }
 
 @media (max-width: 640px){
+  .mobile\:absolute{
+    position: absolute;
+  }
+
+  .mobile\:right-\[20px\]{
+    right: 20px;
+  }
+
   .mobile\:mx-3{
     margin-left: 0.75rem;
     margin-right: 0.75rem;
@@ -970,6 +1053,11 @@ th{
     display: none;
   }
 
+  .mobile\:size-4{
+    width: 1rem;
+    height: 1rem;
+  }
+
   .mobile\:h-screen{
     height: 100vh;
   }
@@ -991,8 +1079,43 @@ th{
     flex-direction: column;
   }
 
+  .mobile\:bg-yellow-400{
+    --tw-bg-opacity: 1;
+    background-color: rgb(250 204 21 / var(--tw-bg-opacity, 1));
+  }
+
   .mobile\:px-4{
     padding-left: 1rem;
     padding-right: 1rem;
+  }
+
+  .mobile\:px-\[80px\]{
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+
+  .mobile\:px-\[70px\]{
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+
+  .mobile\:px-\[8px\]{
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+
+  .mobile\:px-\[75px\]{
+    padding-left: 75px;
+    padding-right: 75px;
+  }
+
+  .mobile\:px-\[px\]{
+    padding-left: px;
+    padding-right: px;
+  }
+
+  .mobile\:px-\[85px\]{
+    padding-left: 85px;
+    padding-right: 85px;
   }
 }

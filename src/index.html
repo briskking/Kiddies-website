@@ -12,12 +12,19 @@
     
     <header class="px-[100px] py-6 mobile:px-4 flex justify-between items-center">
     <h1 class="text-3xl font-bold w-14 bg-black text-white py-4 px-2 rounded">KD</h1>
-    <i class="fas fa-ellipsis-h absolute right-[100px] hidden mobile:block" id="open"></i>
-        <i class="fas fa-times absolute right-[100px] top-2 hidden mobile:block" id="close"></i> 
-        <nav class=" flex mobile:flex-col mobile:hidden absolute right-[20px] px-[100px]" id="nav">
+
+    <div class="hidden mobile:flex mobile:flex-col absolute right-[20px] px-[80px] top-1 mobile:">
+    <i class="fas fa-ellipsis-h" id="open"></i>
+    <i class="fas fa-times" id="close"></i> 
+</div>
+    
+
+        <!-- absolute right-[100px]" -->
+
+        <nav class="mobile:flex-col flex absolute right-[20px] px-[100px] top-6 mobile:hidden" id="nav">
            
-            <ul class="flex gap-12 text-xl items-center flex-col bg-yellow-400 mobile:hidden">
-                <li class="font-bold text-xl text-white">Sign Up</li>
+            <ul class="flex gap-12 text-xl items-center mobile:flex-col mobile:bg-yellow-400">
+                <li class="font-bold text-xl text-black">Sign Up</li>
                 <li class="font-bold text-xl text-white bg-light-blue py-2 px-6 rounded-[32px]">Login</li>
             </ul>
         </nav>
